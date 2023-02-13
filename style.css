@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+
+}
+
+.card{
+    width: 20%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-right: 1px solid black;
+}
+.pic
+{
+    height: 50px;
+    width: 50px;
+    background-image: url(./5.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+}
+.idcard{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+li,a{
+    list-style: none;
+    text-decoration: none;
+}
+.card h1{
+    padding: 30px;
+    border-bottom: 1px solid black;
+   
+}
+ul{
+    padding: 0px 20PX;
+
+
+}
+.Dashbord{
+    padding: 15px 10px 15px 20px;
+    background-color: aqua;
+    color: black;
+    /* text-align: center; */
+    margin-right: 10px;
+}
+li{
+    margin-top: 15px;
+    font-size: 19PX;
+    
+}
+.bi{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+li a{
+    color: black;
+}
+.card2{
+    height: 100vh;
+    width: 80%;
+
+   
+}
+.big {
+display: flex;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+    border-bottom: 1px solid black;
+  
+}
+.one h1{
+    font-size:  40px;
+    
+}
+input{
+    border: none;
+}
+.search-btn a{
+    border: 1px solid black;
+    padding:8px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.search-btn{
+   display: flex;
+   align-items: center;
+   
+  
+}
+.bell{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    }
+.box1{
+    width: 55%;
+    height: 86vh;
+    background-color:#fff;
+
+}
+.payment{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+}
+ol a{
+   margin-left: 20px;
+}
+ol{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.img-sec img{
+width:592px;
+height: 250px;
+}
+.setting{
+border: 1px solid black;
+border-radius: 10px;
+padding: 5px;
+}
+.one1{
+    display: flex;
+
+}
+.name{
+    margin-left: 10px;
+
+}
+.mon
+{
+    height: 35px;
+    width: 35px;
+    background-image: url(./download.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    /* margin-left: 10px; */
+}
+.mon1
+{
+    height: 35px;
+    width: 35px;
+    background-image: url(./github.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    /* margin-left: 10px; */
+}
+.mon2
+{
+    height: 35px;
+    width: 35px;
+    background-image: url(./download\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    /* margin-left: 10px; */
+}
+.monkey{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    justify-content: space-between;
+}
+.box2{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius:10px;
+    border-bottom: none;
+    margin:14px 14px 0px;
+    
+}
+.pay2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    font-size:13px;
+}
+.pay3{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.cardpic img{
+    height: 200px;
+    width: 400px;
+    margin-top: 10px;
+}
+.play{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mack{
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+.arrow{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+@media(max-width :768px){
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    border: none;
+    
+
+  }
+  .card2{
+    display: flex;
+    flex-direction: column;
+}
+.one .bell
+{
+    display: none;
+}
+
+.one{
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    height: 100vh;
+
+}
+.search-btn{
+
+    display: none;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box1{
+    width: 100%;
+    height: 100vh;
+}
+.card2{
+    width: 100%;
+}.box2{
+    width: 95%;
+}
+}
